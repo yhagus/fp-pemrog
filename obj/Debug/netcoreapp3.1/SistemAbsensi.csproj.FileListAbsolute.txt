@@ -1,0 +1,13 @@
+d:\Users\bagusp\source\repos\SistemAbsensi\obj\Debug\netcoreapp3.1\SistemAbsensi.csprojAssemblyReference.cache
+d:\Users\bagusp\source\repos\SistemAbsensi\obj\Debug\netcoreapp3.1\SistemAbsensi.AssemblyInfoInputs.cache
+d:\Users\bagusp\source\repos\SistemAbsensi\obj\Debug\netcoreapp3.1\SistemAbsensi.AssemblyInfo.cs
+d:\Users\bagusp\source\repos\SistemAbsensi\obj\Debug\netcoreapp3.1\SistemAbsensi.csproj.CoreCompileInputs.cache
+d:\Users\bagusp\source\repos\SistemAbsensi\bin\Debug\netcoreapp3.1\SistemAbsensi.exe
+d:\Users\bagusp\source\repos\SistemAbsensi\bin\Debug\netcoreapp3.1\SistemAbsensi.deps.json
+d:\Users\bagusp\source\repos\SistemAbsensi\bin\Debug\netcoreapp3.1\SistemAbsensi.runtimeconfig.json
+d:\Users\bagusp\source\repos\SistemAbsensi\bin\Debug\netcoreapp3.1\SistemAbsensi.runtimeconfig.dev.json
+d:\Users\bagusp\source\repos\SistemAbsensi\bin\Debug\netcoreapp3.1\SistemAbsensi.dll
+d:\Users\bagusp\source\repos\SistemAbsensi\bin\Debug\netcoreapp3.1\SistemAbsensi.pdb
+d:\Users\bagusp\source\repos\SistemAbsensi\obj\Debug\netcoreapp3.1\SistemAbsensi.dll
+d:\Users\bagusp\source\repos\SistemAbsensi\obj\Debug\netcoreapp3.1\SistemAbsensi.pdb
+d:\Users\bagusp\source\repos\SistemAbsensi\obj\Debug\netcoreapp3.1\SistemAbsensi.genruntimeconfig.cache
