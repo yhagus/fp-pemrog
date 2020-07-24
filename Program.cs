@@ -11,10 +11,11 @@ namespace SistemAbsensi
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine("\n\t\tAplikasi Sistem Absensi Mahasiswa\n");
-                Console.WriteLine("\t1. Login sebagai admin");
-                Console.WriteLine("\t2. Presensi sebagai mahasiswa");
-                Console.Write("Pilihan anda : ");
+                Console.WriteLine("\n\t\tAplikasi Sistem Absensi Manual Mahasiswa\n");
+                Console.WriteLine("1. Login sebagai admin");
+                Console.WriteLine("2. Presensi sebagai mahasiswa");
+                Console.WriteLine("0. Exit");
+                Console.Write("\nPilihan anda [1-2]: ");
                 int pilihan = Convert.ToInt32(Console.ReadLine());
                 switch (pilihan)
                 {
@@ -32,6 +33,7 @@ namespace SistemAbsensi
                     case 2:
                         login.MahasiswaDashboard();
                         break;
+                    case 0: return;
                 }
             }
         }

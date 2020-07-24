@@ -15,15 +15,18 @@ namespace SistemAbsensi
         public void AdminDashboard()
         {
             Console.Clear();
-            Console.WriteLine("\n\t1. Tambah Data Mahasiswa Baru");
-            Console.WriteLine("\n\t2. Hapus Data Mahasiswa");
-            Console.WriteLine("\n\t3. Tampilkan Data Mahasiswa");
-            Console.WriteLine("\n\t0. Exit");
 
+            Console.WriteLine("\n\t\tSistem Manajemen Mahasiswa\n");
+            Console.WriteLine("\n1. Tambah Data Mahasiswa Baru");
+            Console.WriteLine("\n2. Hapus Data Mahasiswa");
+            Console.WriteLine("\n3. Tampilkan Data Mahasiswa");
+            Console.WriteLine("\n0. Exit");
+            Console.Write("\nPilihan anda [1-3] : ");
             int pilihan = Convert.ToInt32(Console.ReadLine());
             switch (pilihan)
             {
                 case 1:
+                    Console.Clear();
                     Mahasiswa mahasiswa = new Mahasiswa();
 
                     Console.Write("Nama : ");
@@ -36,6 +39,9 @@ namespace SistemAbsensi
                     mahasiswa.Kelas = Console.ReadLine();
 
                     daftarData.Add(mahasiswa);
+
+                    Console.WriteLine("Data mahasiswa berhasil ditambahkan");
+                    Console.ReadKey();
                     break;
                 case 2:
                     Console.Clear();
@@ -75,13 +81,22 @@ namespace SistemAbsensi
         public void MahasiswaDashboard()
         {
             Console.Clear();
-            Console.WriteLine("Silakan presensi");
-            Console.WriteLine("Masukkan NIM anda: ");
+            Console.WriteLine("\n\t\tSilakan input presensi manual\n");
+            Console.Write("Masukkan NIM anda : ");
             string inputnim = Console.ReadLine();
-            if (daftarData.Any(i => i.NIM == inputnim))
+            foreach (Mahasiswa mhs in daftarData)
             {
-                
+                if (mhs.NIM == inputnim)
+                {
+                    mhs.Absensi = "Sudah presensi";
+                    Console.WriteLine("Mahasiswa dengan NIM {0} berhasil presensi", inputnim);
+                    Console.ReadKey();
+                    return;
+                }
             }
+            Console.WriteLine("Mahasiswa dengan NIM {0} tidak ditemukan", inputnim);
+            Console.ReadKey();
+            return;
 
         }
         public void AdminLogin(string username, string password)
@@ -89,13 +104,13 @@ namespace SistemAbsensi
             Login login = new Login();
             if (username == login.adminID && password == login.adminPassword)
             {
-                Console.WriteLine("\tBerhasil login");
+                Console.WriteLine("Berhasil login");
                 Console.ReadKey();
                 login.AdminDashboard();
             }
             else
             {
-                Console.WriteLine("\tUsername atau password salah");
+                Console.WriteLine("Username atau password salah");
             }
         }
     }
