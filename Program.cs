@@ -8,6 +8,13 @@ namespace SistemAbsensi
         static void Main(string[] args)
         {
             Login login = new Login();
+            Mahasiswa mahasiswa = new Mahasiswa();
+            mahasiswa.Nama = "bagus";
+            mahasiswa.NIM = "19";
+            mahasiswa.Prodi = "if";
+            mahasiswa.Kelas = "s1if02";
+            mahasiswa.sks = 24;
+            login.daftarData.Add(mahasiswa);
             while (true)
             {
                 Console.Clear();

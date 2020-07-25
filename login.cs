@@ -8,7 +8,7 @@ namespace SistemAbsensi
 {
     class Login
     {
-        List<Data> daftarData = new List<Data>();
+        public List<Data> daftarData = new List<Data>();
         public string adminID = "admin";
         public string adminPassword = "admin";
         
@@ -29,14 +29,16 @@ namespace SistemAbsensi
                     Console.Clear();
                     Mahasiswa mahasiswa = new Mahasiswa();
 
-                    Console.Write("Nama : ");
+                    Console.Write("Nama\t: ");
                     mahasiswa.Nama= Console.ReadLine();
-                    Console.Write("NIM : ");
+                    Console.Write("NIM\t: ");
                     mahasiswa.NIM = Console.ReadLine();
-                    Console.Write("Prodi : ");
+                    Console.Write("Prodi\t: ");
                     mahasiswa.Prodi = Console.ReadLine();
-                    Console.Write("Kelas : ");
+                    Console.Write("Kelas\t: ");
                     mahasiswa.Kelas = Console.ReadLine();
+                    Console.Write("SKS\t: ");
+                    mahasiswa.sks = Convert.ToDouble(Console.ReadLine());
 
                     daftarData.Add(mahasiswa);
 
@@ -46,7 +48,7 @@ namespace SistemAbsensi
                 case 2:
                     Console.Clear();
                     Console.WriteLine("Hapus data mahasiswa");
-                    Console.Write("NIM : ");
+                    Console.Write("NIM\t: ");
                     string inputnim = Console.ReadLine();
 
                     if (daftarData.Any(i => i.NIM == inputnim))
@@ -66,8 +68,8 @@ namespace SistemAbsensi
                     int i = 1;
                     foreach (Mahasiswa mhs in daftarData)
                     {
-                            Console.WriteLine("{0}. {1}, {2}, {3}, {4}, {5}",
-                                i, mhs.NIM, mhs.Nama, mhs.Prodi, mhs.Kelas, mhs.Absensi);
+                            Console.WriteLine("{0}.NIM\t\t: {1}\n  Nama\t\t: {2}\n  prodi\t\t: {3}\n  Kelas\t\t: {4}\n  SKS\t\t: {5}\n  Absensi\t: {6}\n",
+                                i, mhs.NIM, mhs.Nama, mhs.Prodi, mhs.Kelas, mhs.SKS(),mhs.Absensi);
                             i++;
                     }
 

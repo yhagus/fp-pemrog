@@ -1,4 +1,3 @@
-d:\Users\bagusp\source\repos\SistemAbsensi\obj\Debug\netcoreapp3.1\SistemAbsensi.csprojAssemblyReference.cache
 d:\Users\bagusp\source\repos\SistemAbsensi\obj\Debug\netcoreapp3.1\SistemAbsensi.AssemblyInfoInputs.cache
 d:\Users\bagusp\source\repos\SistemAbsensi\obj\Debug\netcoreapp3.1\SistemAbsensi.AssemblyInfo.cs
 d:\Users\bagusp\source\repos\SistemAbsensi\obj\Debug\netcoreapp3.1\SistemAbsensi.csproj.CoreCompileInputs.cache

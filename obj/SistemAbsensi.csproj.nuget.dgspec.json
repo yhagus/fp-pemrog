@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Users\\bagusp\\source\\repos\\SistemAbsensi\\SistemAbsensi.csproj": {}
+    "D:\\Users\\bagusp\\source\\repos\\SistemAbsensi\\SistemAbsensi.csproj": {}
   },
   "projects": {
-    "d:\\Users\\bagusp\\source\\repos\\SistemAbsensi\\SistemAbsensi.csproj": {
+    "D:\\Users\\bagusp\\source\\repos\\SistemAbsensi\\SistemAbsensi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Users\\bagusp\\source\\repos\\SistemAbsensi\\SistemAbsensi.csproj",
+        "projectUniqueName": "D:\\Users\\bagusp\\source\\repos\\SistemAbsensi\\SistemAbsensi.csproj",
         "projectName": "SistemAbsensi",
-        "projectPath": "d:\\Users\\bagusp\\source\\repos\\SistemAbsensi\\SistemAbsensi.csproj",
+        "projectPath": "D:\\Users\\bagusp\\source\\repos\\SistemAbsensi\\SistemAbsensi.csproj",
         "packagesPath": "C:\\Users\\bagusp\\.nuget\\packages\\",
-        "outputPath": "d:\\Users\\bagusp\\source\\repos\\SistemAbsensi\\obj\\",
+        "outputPath": "D:\\Users\\bagusp\\source\\repos\\SistemAbsensi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bagusp\\AppData\\Roaming\\NuGet\\NuGet.Config",
