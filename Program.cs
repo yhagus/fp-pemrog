@@ -27,14 +27,6 @@ namespace SistemAbsensi
                 switch (pilihan)
                 {
                     case 1:
-                        /*
-                        Console.Clear();
-                        Console.Write("Username : ");
-                        string username = Console.ReadLine();
-                        Console.Write("Password : ");
-                        string password = Console.ReadLine();
-                        login.AdminLogin(username, password);
-                        */
                         login.AdminDashboard();
                         break;
                     case 2:

@@ -9,8 +9,6 @@ namespace SistemAbsensi
     class Login
     {
         public List<Data> daftarData = new List<Data>();
-        public string adminID = "admin";
-        public string adminPassword = "admin";
         
         public void AdminDashboard()
         {
@@ -100,20 +98,6 @@ namespace SistemAbsensi
             Console.ReadKey();
             return;
 
-        }
-        public void AdminLogin(string username, string password)
-        {
-            Login login = new Login();
-            if (username == login.adminID && password == login.adminPassword)
-            {
-                Console.WriteLine("Berhasil login");
-                Console.ReadKey();
-                login.AdminDashboard();
-            }
-            else
-            {
-                Console.WriteLine("Username atau password salah");
-            }
         }
     }
     

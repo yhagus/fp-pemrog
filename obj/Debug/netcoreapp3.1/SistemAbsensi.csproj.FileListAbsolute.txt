@@ -10,3 +10,4 @@ d:\Users\bagusp\source\repos\SistemAbsensi\bin\Debug\netcoreapp3.1\SistemAbsensi
 d:\Users\bagusp\source\repos\SistemAbsensi\obj\Debug\netcoreapp3.1\SistemAbsensi.dll
 d:\Users\bagusp\source\repos\SistemAbsensi\obj\Debug\netcoreapp3.1\SistemAbsensi.pdb
 d:\Users\bagusp\source\repos\SistemAbsensi\obj\Debug\netcoreapp3.1\SistemAbsensi.genruntimeconfig.cache
+D:\Users\bagusp\source\repos\SistemAbsensi\obj\Debug\netcoreapp3.1\SistemAbsensi.csprojAssemblyReference.cache
